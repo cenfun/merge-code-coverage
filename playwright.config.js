@@ -3,11 +3,6 @@ import { devices } from '@playwright/test';
 export default {
     testDir: './test/e2e',
 
-    shard: {
-        total: 2,
-        current: 1
-    },
-
     globalSetup: './test/e2e/global.setup.js',
     globalTeardown: './test/e2e/global-teardown.js',
 
