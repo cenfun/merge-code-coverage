@@ -3,6 +3,9 @@ import { devices } from '@playwright/test';
 export default {
     testDir: './test/e2e',
 
+    // shard for file
+    fullyParallel: true,
+
     globalSetup: './test/e2e/global.setup.js',
     globalTeardown: './test/e2e/global-teardown.js',
 
