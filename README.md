@@ -2,6 +2,9 @@
 Example for merging code coverage
 - unit test with Jest
 - e2e test with Playwright (shard)
+    - `npx playwright test --shard=1/2`
+    - `npx playwright test --shard=2/2`
+- [merge coverage](merge-coverage.js)
 
 ## Github Actions
 - [.github/workflows/main.yml](.github/workflows/main.yml)
