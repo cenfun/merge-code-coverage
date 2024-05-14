@@ -30,7 +30,7 @@ jobs:
       - uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: unit-test-results
+          name: unit-test
           path: coverage-reports/unit
           retention-days: 7
 
@@ -45,7 +45,7 @@ jobs:
         with:
           node-version: 20.x
       - run: npm i
-      - run: npx playwright install 
+      - run: npx playwright install --with-deps
       - run: npm run test:e2e
         env:
           FORCE_COLOR: true
@@ -53,7 +53,7 @@ jobs:
       - uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: unit-test-results
+          name: e2e-test
           path: coverage-reports/e2e
           retention-days: 7
 
