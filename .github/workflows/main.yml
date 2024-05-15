@@ -1,4 +1,4 @@
-name: merge-coverage-unit-e2e-shard
+name: merge-code-coverage
 
 on:
   workflow_dispatch:

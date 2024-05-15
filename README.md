@@ -1,4 +1,4 @@
-# merge-coverage-unit-e2e-shard
+# merge-code-coverage
 Example for merging code coverage
 - unit test with Jest
 - e2e test with Playwright (shard)
@@ -10,7 +10,7 @@ Example for merging code coverage
 - [.github/workflows/main.yml](.github/workflows/main.yml)
 
 
-## Preview Coverage Reports
-- unit: https://cenfun.github.io/merge-coverage-unit-e2e-shard/unit/
-- e2e (merged with shard1 or shard2): https://cenfun.github.io/merge-coverage-unit-e2e-shard/e2e/
-- merged: https://cenfun.github.io/merge-coverage-unit-e2e-shard/merged/
+## Preview V8 Coverage Reports
+- unit: https://cenfun.github.io/merge-code-coverage/unit/
+- e2e (merge-multiple): https://cenfun.github.io/merge-code-coverage/e2e/
+- merged: https://cenfun.github.io/merge-code-coverage/merged/

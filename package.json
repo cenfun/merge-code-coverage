@@ -1,7 +1,7 @@
 {
-    "name": "merge-coverage-unit-e2e-shard",
+    "name": "merge-code-coverage",
     "version": "1.0.0",
-    "description": "merge-coverage-unit-e2e-shard",
+    "description": "merge-code-coverage",
     "main": "",
     "type": "module",
     "scripts": {
