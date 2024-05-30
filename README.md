@@ -9,6 +9,8 @@ Example for merging code coverage
 ## Github Actions
 - [.github/workflows/main.yml](.github/workflows/main.yml)
 
+## Related Examples
+- [Vitest + Playwright](https://github.com/cenfun/merge-code-coverage-vitest)
 
 ## Preview V8 Coverage Reports
 - unit: https://cenfun.github.io/merge-code-coverage/unit/
